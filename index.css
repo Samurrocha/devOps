@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+
+/* Estiliza a tabela */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+
+}
+
+table,tr,th, td{
+    border: black solid 2px;
+}
+
