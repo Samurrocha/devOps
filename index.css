@@ -1,17 +1,87 @@
-h1{
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
+
+body {
+    background: url("https://fastly.picsum.photos/id/434/1600/900.jpg?hmac=msaoVw2ssPzTVXhRYOeZQAOYzxWGtJ1hOJGfNUaI48U");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+
+h1 {
+
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+#submit-button {
+
+    width: 100%;
+    height: 50px;
+    background-color: #00c510;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 24px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+}
+
+#submit-button:hover {
+
+    background-color: #00bb19;
+
+}
+
 
 /* Estiliza a tabela */
 table {
-    width: 90%;
+    width: 100%;
+    height: 100%;
     border-collapse: collapse;
     margin: 0 auto;
     font-family: Arial, sans-serif;
 
 }
 
-table,tr,th, td{
+table,
+tr,
+th,
+td {
     border: black solid 2px;
 }
 
+#relatorio {
+    display: none;
+    background-color: white;
+    border: black solid 2px;
+    border-radius: 10px;
+}
+
+#relatorio h1 {
+    color: black;
+    margin-bottom: 20px;
+}

@@ -31,4 +31,16 @@ async function fetchUser() {
 
 }
 
-fetchUser()
+const button = document.getElementById('submit-button')
+const relatorio = document.getElementById('relatorio')
+const container = document.getElementById('container')
+
+button.addEventListener("click", () => {
+    fetchUser();
+
+    container.style.display = 'none'
+    relatorio.style.display = 'block'
+
+})
+
+
